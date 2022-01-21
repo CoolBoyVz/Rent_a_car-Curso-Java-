@@ -5,7 +5,7 @@ public class Mantencion {
 	private String fecha_inicio;
 	private String fechas_termino;
 	private String tipo;
-	private int valor;
+	private int valor; 
 	private Proveedor proveedor;
 	private Vehiculo vehiculo;
 	

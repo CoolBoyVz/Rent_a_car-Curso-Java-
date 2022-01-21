@@ -4,7 +4,7 @@ public class Proveedor {
 	private String nombre;
 	private int edad;
 	private String direccion;
-	private int telefono;
+	private int telefono; 
 	private String correo;
 	
 	public Proveedor(String nombre, int edad, String direccion, int telefono, String correo) {

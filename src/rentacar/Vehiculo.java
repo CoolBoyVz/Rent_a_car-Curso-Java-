@@ -3,7 +3,7 @@ package rentacar;
 public class Vehiculo {
 	private String patente;
 	private String marca;
-	private String modelo;
+	private String modelo; 
 	private int tarifa;
 	private int pasajero; //capacidad de pasajeros
 	private String disponibilidad;

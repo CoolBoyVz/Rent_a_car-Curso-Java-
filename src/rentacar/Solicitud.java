@@ -2,7 +2,7 @@ package rentacar;
 
 public class Solicitud {
 	private String fechaDesde;
-	private String fechaHasta;
+	private String fechaHasta; 
 	private Vehiculo vehiculo;
 	private Cliente cliente;
 	private String recogerEn;
