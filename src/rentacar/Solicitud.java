@@ -3,19 +3,17 @@ package rentacar;
 public class Solicitud {
 	private String fechaDesde;
 	private String fechaHasta;
-	private String tipoVehiculo;
-	private String vehiculo;
-	private String rutcliente;
+	private Vehiculo vehiculo;
+	private Cliente cliente;
 	private String recogerEn;
 	private String devolverEn;
 	
-	public Solicitud (String fechaDesde, String fechaHasta, String tipoVehiculo, String vehiculo,
-			String rutcliente, String recogerEn, String devolverEn) {
+	public Solicitud (String fechaDesde, String fechaHasta, Vehiculo vehiculo,
+			Cliente cliente, String recogerEn, String devolverEn) {
 	this.fechaDesde = fechaDesde;
 	this.fechaHasta = fechaHasta;
-	this.tipoVehiculo = tipoVehiculo;
 	this.vehiculo = vehiculo;
-	this.rutcliente = rutcliente;
+	this.cliente = cliente;
 	this.recogerEn = recogerEn;
 	this.devolverEn = devolverEn;
 	}
@@ -33,23 +31,17 @@ public class Solicitud {
 		public void setFechaHasta(String fechaHasta) {
 		this.fechaHasta = fechaHasta;
 		}
-		public String getTipoVehiculo() {
-		return tipoVehiculo;
-		}
-		public void setTipoVehiculo(String tipoVehiculo) {
-		this.tipoVehiculo = tipoVehiculo;
-		}
-		public String getVehiculo() {
+		public Vehiculo getVehiculo() {
 		return vehiculo;
 		}
-		public void setVehiculo(String vehiculo) {
+		public void setVehiculo(Vehiculo vehiculo) {
 		this.vehiculo = vehiculo;
 		}
-		public String getRutcliente() {
-		return rutcliente;
+		public Cliente getCliente() {
+		return cliente;
 		}
-		public void setRutcliente(String rutcliente) {
-		this.rutcliente = rutcliente;
+		public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
 		}
 		public String getRecogerEn() {
 		return recogerEn;

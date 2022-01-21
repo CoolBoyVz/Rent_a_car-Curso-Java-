@@ -2,12 +2,12 @@ package rentacar;
 
 public class Proveedor {
 	private String nombre;
-	private String edad;
+	private int edad;
 	private String direccion;
 	private int telefono;
 	private String correo;
 	
-	public Proveedor(String nombre, String edad, String direccion, int telefono, String correo) {
+	public Proveedor(String nombre, int edad, String direccion, int telefono, String correo) {
 		this.nombre = nombre;
 		this.edad = edad;
 		this.direccion = direccion;
@@ -23,11 +23,11 @@ public class Proveedor {
 		this.nombre = nombre;
 	}
 
-	public String getEdad() {
+	public int getEdad() {
 		return edad;
 	}
 
-	public void setEdad(String edad) {
+	public void setEdad(int edad) {
 		this.edad = edad;
 	}
 

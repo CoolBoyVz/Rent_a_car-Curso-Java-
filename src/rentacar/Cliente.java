@@ -8,7 +8,7 @@ public class Cliente extends Proveedor {
 	// Constructor
 	public Cliente
 	( String nombre,
-	String edad,
+	int edad,
 	String direccion,
 	int telefono,
 	String correo,

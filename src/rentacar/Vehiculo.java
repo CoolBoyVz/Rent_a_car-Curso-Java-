@@ -5,7 +5,7 @@ public class Vehiculo {
 	private String marca;
 	private String modelo;
 	private int tarifa;
-	private int pasajero;
+	private int pasajero; //capacidad de pasajeros
 	private String disponibilidad;
 
 	public Vehiculo(String patente, String marca, String modelo, int tarifa,
