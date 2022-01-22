@@ -19,5 +19,5 @@ public class Principal {
 		System.out.println("Disponibilidad: " + vehiculo1.getDisponibilidad());
 		
 	}
-
+ 
 }

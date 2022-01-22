@@ -11,7 +11,7 @@ public class Cliente extends Proveedor {
 		int rut,
 	int edad,
 	String direccion,
-	int telefono,
+	int telefono, 
 	String correo,
 	String apellido1,
 	String apellido2

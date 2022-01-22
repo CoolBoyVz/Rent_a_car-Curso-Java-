@@ -18,7 +18,7 @@ public class Vehiculo {
 	this.pasajero = pasajero;
 	this.disponibilidad = disponibilidad;
 	}
-
+ 
 	public String getPatente() {
 	return patente;
 	}

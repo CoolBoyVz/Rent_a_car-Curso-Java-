@@ -27,7 +27,7 @@ public class Proveedor {
 
 	public int getRut() {
 		return rut;
-	}
+	} 
 
 	public void setRut(int rut) {
 		this.edad = rut;

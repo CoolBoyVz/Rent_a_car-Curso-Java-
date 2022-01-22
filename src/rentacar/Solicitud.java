@@ -11,7 +11,7 @@ public class Solicitud {
 	public Solicitud (String fechaDesde, String fechaHasta, Vehiculo vehiculo,
 			Cliente cliente, String recogerEn, String devolverEn) {
 	this.fechaDesde = fechaDesde;
-	this.fechaHasta = fechaHasta;
+	this.fechaHasta = fechaHasta; 
 	this.vehiculo = vehiculo;
 	this.cliente = cliente;
 	this.recogerEn = recogerEn;

@@ -62,7 +62,7 @@ public class Mantencion {
 	
 	public Vehiculo getVehiculo() {
 		return vehiculo;
-	}
+	} 
 	
 	public void setVehiculo(Vehiculo vehiculo) {
 		this.vehiculo = vehiculo;
