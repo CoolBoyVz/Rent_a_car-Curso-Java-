@@ -8,6 +8,7 @@ public class Cliente extends Proveedor {
 	// Constructor
 	public Cliente
 	( String nombre, 
+		int rut,
 	int edad,
 	String direccion,
 	int telefono,
@@ -15,7 +16,7 @@ public class Cliente extends Proveedor {
 	String apellido1,
 	String apellido2
 	) {
-	super(nombre, edad, direccion, telefono, correo);
+	super(nombre, rut, edad, direccion, telefono, correo);
 	this.apellido1 = apellido1;
 	this.apellido2 = apellido2;
 	}
