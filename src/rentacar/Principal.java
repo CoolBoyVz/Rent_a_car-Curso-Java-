@@ -18,6 +18,11 @@ public class Principal {
 			+ " solicita el auto "+ vehiculo1.getMarca() + " " + vehiculo1.getModelo());
 		System.out.println("Disponibilidad: " + vehiculo1.getDisponibilidad());
 		
+		Proveedor proveedor1 = new Proveedor("Portillo", 35, "los claveles 3020", 7654332, "contacto@portillo.cl");
+
+		Mantencion mantencion = new Mantencion("10-10-2022", "10-11-2022", "Cambio de aceite", 30000, proveedor1, vehiculo3)
+		
+		//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
 	}
  
 }
