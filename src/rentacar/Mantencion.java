@@ -8,10 +8,10 @@ public class Mantencion {
 	private int valor; 
 	private Proveedor proveedor;
 	private Vehiculo vehiculo;
-	private Cliente cliente;
+	
 	
 	public Mantencion(String fecha_inicio, String fechas_termino, String tipo, int valor, Proveedor proveedor,
-						Vehiculo vehiculo, Cliente cliente) {
+						Vehiculo vehiculo) {
 	super();
 		this.fecha_inicio = fecha_inicio;
 		this.fechas_termino = fechas_termino;
@@ -19,7 +19,7 @@ public class Mantencion {
 		this.valor = valor;
 		this.proveedor = proveedor;
 		this.vehiculo = vehiculo;
-		this.cliente = cliente;
+		
 	}
 
 	public String getFecha_inicio() {
@@ -70,14 +70,6 @@ public class Mantencion {
 		this.vehiculo = vehiculo;
 	}
 
-	public Cliente getCliente() {
-		return cliente;
-	}
-
-	public void setCliente(Cliente cliente) {
-		this.cliente = cliente;
-	}
-
-
+	
 
 }

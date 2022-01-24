@@ -20,14 +20,13 @@ public class Principal {
 			+ " solicita el auto "+ vehiculo1.getMarca() + " " + vehiculo1.getModelo());
 		System.out.println("Disponibilidad: " + vehiculo1.getDisponibilidad());
 		
-		Mantencion mantencion = new Mantencion("05-10-2021", "06-11-2021", "Cambio de aceite", 25000, proveedor, vehiculo3, cliente2);
+		Mantencion mantencion = new Mantencion("05-10-2021", "06-11-2021", "Cambio de aceite", 25000, proveedor, vehiculo3);
 		
 		System.out.println("Se ha generado una nueva mantencion desde el dia " 
 		+ mantencion.getFecha_inicio() 
 		+ " hasta el dia " 
 		+ mantencion.getFechas_termino() 
 		+ " para el cliente " 
-		+ mantencion.getCliente().getNombreCompleto() + " " 
 		+ " para el proveedor " + mantencion.getProveedor().getNombre());
 		
 	}
