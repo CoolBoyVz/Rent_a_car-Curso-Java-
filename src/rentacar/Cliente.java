@@ -42,6 +42,6 @@ public class Cliente extends Proveedor {
 		
 		return this.getNombre() + " " + this.getApellido1() + " " + this.getApellido2();
 	}
-	}
+	
 
 	}
