@@ -37,5 +37,11 @@ public class Cliente extends Proveedor {
 	public void setApellido2(String apellido2) {
 	this.apellido2 = apellido2;
 	}
+	
+	public String getNombreCompleto() {
+		
+		return this.getNombre() + " " + this.getApellido1() + " " + this.getApellido2();
+	}
+	}
 
 	}
