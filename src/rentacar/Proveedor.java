@@ -3,15 +3,13 @@ package rentacar;
 public class Proveedor {
 	private String nombre;
 	private int rut;
-	private int edad;
 	private String direccion;
 	private int telefono; 
 	private String correo;
 	
-	public Proveedor(String nombre, int rut, int edad, String direccion, int telefono, String correo) {
+	public Proveedor(String nombre, int rut, String direccion, int telefono, String correo) {
 		this.nombre = nombre;
 		this.rut = rut;
-		this.edad = edad;
 		this.direccion = direccion;
 		this.telefono = telefono;
 		this.correo = correo;
@@ -30,14 +28,7 @@ public class Proveedor {
 	} 
 
 	public void setRut(int rut) {
-		this.edad = rut;
-	}
-	public int getEdad() {
-		return edad;
-	}
-
-	public void setEdad(int edad) {
-		this.edad = edad;
+		this.rut = rut;
 	}
 
 	public String getDireccion() {

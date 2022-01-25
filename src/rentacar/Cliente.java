@@ -7,16 +7,11 @@ public class Cliente extends Proveedor {
 
 	// Constructor
 	public Cliente
-	( String nombre, 
-		int rut,
-	int edad,
-	String direccion,
-	int telefono, 
-	String correo,
-	String apellido1,
-	String apellido2
+	( String nombre, int rut, String direccion, int telefono, String correo,
+			String apellido1,
+			String apellido2
 	) {
-	super(nombre, rut, edad, direccion, telefono, correo);
+	super(nombre, rut, direccion, telefono, correo);
 	this.apellido1 = apellido1;
 	this.apellido2 = apellido2;
 	}
